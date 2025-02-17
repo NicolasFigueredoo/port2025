@@ -30,7 +30,7 @@ const FbxViewer = () => {
 
     // Cargar modelo FBX
     const loader = new FBXLoader();
-    loader.load("/Ccase.fbx", (object) => {
+    loader.load("/Case.fbx", (object) => {
       console.log("Modelo cargado", object); // Verifica que el objeto se haya cargado correctamente
       object.scale.set(0.01, 0.01, 0.01); // Ajusta el tamaño
       modelRef.current = object; // Guardamos referencia al modelo
