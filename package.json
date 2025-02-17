@@ -16,7 +16,7 @@
     "@react-three/drei": "^9.121.5",
     "@react-three/fiber": "^8.17.14",
     "@types/react": "^19.0.8",
-    "@types/react-dom": "^19.0.3",
+    "@types/react-dom": "^19.0.4",
     "@vercel/speed-insights": "^1.1.0",
     "astro": "^5.2.6",
     "firebase": "^11.3.1",
